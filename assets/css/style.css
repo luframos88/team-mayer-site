@@ -1,0 +1,25 @@
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #ffffff; font-family: 'Barlow', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; }
+img { max-width: 100%; }
+a { color: #0b3fd4; text-decoration: none; }
+a:hover { color: #072a91; }
+
+/* Navegação responsiva (substitui a renderização condicional do protótipo) */
+.nav-desktop { display: flex; }
+.nav-toggle { display: none; }
+.mobile-menu { display: none; }
+.mobile-menu.is-open { display: flex; }
+.hero-side-images { display: block; }
+.hero-mobile-images { display: none; }
+
+@media (max-width: 860px) {
+  .nav-desktop { display: none; }
+  .nav-toggle { display: flex; }
+  .hero-side-images { display: none; }
+  .hero-mobile-images { display: flex; }
+}
+
+.gallery-dot { transition: background 0.2s ease; }
+.rail-track { scrollbar-width: none; }
+.rail-track::-webkit-scrollbar { display: none; }

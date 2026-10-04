@@ -20,6 +20,5 @@ a:hover { color: #072a91; }
   .hero-mobile-images { display: flex; }
 }
 
-.gallery-dot { transition: background 0.2s ease; }
 .rail-track { scrollbar-width: none; }
 .rail-track::-webkit-scrollbar { display: none; }

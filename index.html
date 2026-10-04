@@ -32,6 +32,7 @@
 
       <nav class="nav-desktop" style="position: absolute; left: 50%; transform: translateX(-50%); align-items: center; gap: clamp(16px, 2.4vw, 30px); font-size: 14px; color: #dbe6ff;">
         <a href="#lei" style="color: #dbe6ff; font-size: 16px">A lei</a>
+        <a href="#entidades" style="color: #dbe6ff; font-size: 16px">Quem atendemos</a>
         <a href="#servicos" style="color: #dbe6ff; font-size: 16px">Serviços</a>
         <a href="#etapas" style="color: #dbe6ff; font-size: 16px">Etapas</a>
         <a href="#patrocinadores" style="color: #dbe6ff; font-size: 16px">Patrocinadores</a>
@@ -46,6 +47,7 @@
 
     <nav id="mobile-menu" class="mobile-menu" style="border-top: 1px solid rgba(255,255,255,0.14); background: #06215e; padding: 8px clamp(18px, 4vw, 48px) 14px; flex-direction: column;">
       <a href="#lei" style="color: #dbe6ff; font-size: 16px; padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">A lei</a>
+      <a href="#entidades" style="color: #dbe6ff; font-size: 16px; padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">Quem atendemos</a>
       <a href="#servicos" style="color: #dbe6ff; font-size: 16px; padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">Serviços</a>
       <a href="#etapas" style="color: #dbe6ff; font-size: 16px; padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">Etapas</a>
       <a href="#patrocinadores" style="color: #dbe6ff; font-size: 16px; padding: 13px 0;">Patrocinadores</a>
@@ -127,69 +129,57 @@
     </div>
   </section>
 
-  <section style="padding: clamp(28px, 4vw, 44px) 0 clamp(34px, 5vw, 52px); background: #ffffff;">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(18px, 4vw, 48px) 20px; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
-      <div style="font-family: 'Sora', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #7c8499;">Entidades e atletas que já atendemos</div>
+  <section id="entidades" style="background: #ffffff; padding: clamp(44px, 6vw, 64px) 0;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(18px, 4vw, 48px) clamp(28px, 4vw, 36px); text-align: center;">
+      <div style="font-family: 'Sora', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0b3fd4;">Quem confia na Team Mayer</div>
+      <h2 style="font-family: 'Sora', sans-serif; font-size: clamp(24px, 3vw, 32px); line-height: 1.15; letter-spacing: -0.03em; color: #0f1729; margin: 12px 0 0;">Entidades e atletas que já atendemos</h2>
+      <p style="font-size: 16px; line-height: 1.6; color: #55607a; margin: 14px auto 0; max-width: 52ch;">Associações, institutos e projetos que já contaram com a nossa assessoria técnica para aprovar e captar recursos.</p>
     </div>
     <div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 0 clamp(18px, 4vw, 48px);">
-      <button type="button" id="rail-prev" aria-label="Ver parceiros anteriores" style="position: absolute; left: clamp(8px, 2vw, 20px); top: 50%; transform: translateY(-50%); z-index: 3; width: 40px; height: 40px; border-radius: 999px; border: 1px solid #dbe3f0; background: #fff; color: #0b3fd4; font-size: 18px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 16px rgba(6,33,94,0.12);">‹</button>
-      <button type="button" id="rail-next" aria-label="Ver mais parceiros" style="position: absolute; right: clamp(8px, 2vw, 20px); top: 50%; transform: translateY(-50%); z-index: 3; width: 40px; height: 40px; border-radius: 999px; border: 1px solid #dbe3f0; background: #fff; color: #0b3fd4; font-size: 18px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 16px rgba(6,33,94,0.12);">›</button>
-      <div id="partners-rail" class="rail-track" style="overflow-x: auto; overflow-y: hidden; touch-action: pan-x; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; padding: 0 52px; mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);">
-        <div style="display: flex; gap: 14px; width: max-content;">
-          <div style="width: 250px; border: 1px solid #eef1f7; border-radius: 14px; padding: 16px; display: flex; gap: 14px; align-items: center; background: #fff;">
-            <img src="assets/img/parceiro-mahatma.png" alt="Instituto Márcio Mahatma" style="width: 54px; height: 54px; object-fit: contain; flex: 0 0 auto;">
+      <button type="button" id="rail-prev" aria-label="Ver parceiros anteriores" style="position: absolute; left: clamp(8px, 2vw, 20px); top: 50%; transform: translateY(-50%); z-index: 3; width: 44px; height: 44px; border-radius: 999px; border: 1px solid #dbe3f0; background: #fff; color: #0b3fd4; font-size: 18px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 20px rgba(6,33,94,0.14);">‹</button>
+      <button type="button" id="rail-next" aria-label="Ver mais parceiros" style="position: absolute; right: clamp(8px, 2vw, 20px); top: 50%; transform: translateY(-50%); z-index: 3; width: 44px; height: 44px; border-radius: 999px; border: 1px solid #dbe3f0; background: #fff; color: #0b3fd4; font-size: 18px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 20px rgba(6,33,94,0.14);">›</button>
+      <div id="partners-rail" class="rail-track" style="overflow-x: auto; overflow-y: hidden; touch-action: pan-x; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; padding: 0 56px; mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);">
+        <div style="display: flex; gap: 16px; width: max-content;">
+          <div style="width: 280px; border: 1px solid #e7edf8; border-radius: 16px; padding: 20px; display: flex; gap: 16px; align-items: center; background: #fff; box-shadow: 0 4px 14px rgba(6,33,94,0.05);">
+            <img src="assets/img/parceiro-mahatma.png" alt="Instituto Márcio Mahatma" style="width: 60px; height: 60px; object-fit: contain; flex: 0 0 auto;">
             <div>
-              <div style="font-family: 'Sora', sans-serif; font-size: 14px; font-weight: 700; color: #0f1729;">Instituto Márcio Mahatma</div>
+              <div style="font-family: 'Sora', sans-serif; font-size: 15px; font-weight: 700; color: #0f1729;">Instituto Márcio Mahatma</div>
               <div style="font-size: 13px; color: #6a7488; line-height: 1.35;">projetos sociais</div>
             </div>
           </div>
-          <div style="width: 250px; border: 1px solid #eef1f7; border-radius: 14px; padding: 16px; display: flex; gap: 14px; align-items: center; background: #fff;">
-            <img src="assets/img/parceiro-anup.jpg" alt="ANUP — Associação de Natação Urso Polar" style="width: 54px; height: 54px; object-fit: contain; flex: 0 0 auto;">
+          <div style="width: 280px; border: 1px solid #e7edf8; border-radius: 16px; padding: 20px; display: flex; gap: 16px; align-items: center; background: #fff; box-shadow: 0 4px 14px rgba(6,33,94,0.05);">
+            <img src="assets/img/parceiro-anup.jpg" alt="ANUP — Associação de Natação Urso Polar" style="width: 60px; height: 60px; object-fit: contain; flex: 0 0 auto;">
             <div>
-              <div style="font-family: 'Sora', sans-serif; font-size: 14px; font-weight: 700; color: #0f1729;">ANUP</div>
+              <div style="font-family: 'Sora', sans-serif; font-size: 15px; font-weight: 700; color: #0f1729;">ANUP</div>
               <div style="font-size: 13px; color: #6a7488; line-height: 1.35;">Natação Urso Polar</div>
             </div>
           </div>
-          <div style="width: 250px; border: 1px solid #eef1f7; border-radius: 14px; padding: 16px; display: flex; gap: 14px; align-items: center; background: #fff;">
-            <span style="width: 54px; height: 54px; border-radius: 999px; background: #eaf1ff; color: #0b3fd4; font-family: 'Sora', sans-serif; font-weight: 800; font-size: 15px; display: flex; align-items: center; justify-content: center; flex: 0 0 auto;">AM</span>
+          <div style="width: 280px; border: 1px solid #e7edf8; border-radius: 16px; padding: 20px; display: flex; gap: 16px; align-items: center; background: #fff; box-shadow: 0 4px 14px rgba(6,33,94,0.05);">
+            <img src="assets/img/parceiro-viva.jpg" alt="Projeto Viva" style="width: 60px; height: 60px; object-fit: contain; flex: 0 0 auto;">
             <div>
-              <div style="font-family: 'Sora', sans-serif; font-size: 14px; font-weight: 700; color: #0f1729;">Aquamundo</div>
-              <div style="font-size: 13px; color: #6a7488; line-height: 1.35;">travessias e estágios</div>
+              <div style="font-family: 'Sora', sans-serif; font-size: 15px; font-weight: 700; color: #0f1729;">Projeto Viva</div>
+              <div style="font-size: 13px; color: #6a7488; line-height: 1.35;">desenvolvimento esportivo</div>
             </div>
           </div>
-          <div style="width: 250px; border: 1px solid #eef1f7; border-radius: 14px; padding: 16px; display: flex; gap: 14px; align-items: center; background: #fff;">
-            <span style="width: 54px; height: 54px; border-radius: 999px; background: #e6f7fa; color: #0b3fd4; font-family: 'Sora', sans-serif; font-weight: 800; font-size: 15px; display: flex; align-items: center; justify-content: center; flex: 0 0 auto;">CN</span>
+          <div style="width: 280px; border: 1px solid #e7edf8; border-radius: 16px; padding: 20px; display: flex; gap: 16px; align-items: center; background: #fff; box-shadow: 0 4px 14px rgba(6,33,94,0.05);">
+            <img src="assets/img/parceiro-mahatma.png" alt="Instituto Márcio Mahatma" style="width: 60px; height: 60px; object-fit: contain; flex: 0 0 auto;">
             <div>
-              <div style="font-family: 'Sora', sans-serif; font-size: 14px; font-weight: 700; color: #0f1729;">Clube Náutico Vale</div>
-              <div style="font-size: 13px; color: #6a7488; line-height: 1.35;">exemplo fictício</div>
-            </div>
-          </div>
-          <div style="width: 250px; border: 1px solid #eef1f7; border-radius: 14px; padding: 16px; display: flex; gap: 14px; align-items: center; background: #fff;">
-            <img src="assets/img/parceiro-mahatma.png" alt="Instituto Márcio Mahatma" style="width: 54px; height: 54px; object-fit: contain; flex: 0 0 auto;">
-            <div>
-              <div style="font-family: 'Sora', sans-serif; font-size: 14px; font-weight: 700; color: #0f1729;">Instituto Márcio Mahatma</div>
+              <div style="font-family: 'Sora', sans-serif; font-size: 15px; font-weight: 700; color: #0f1729;">Instituto Márcio Mahatma</div>
               <div style="font-size: 13px; color: #6a7488; line-height: 1.35;">projetos sociais</div>
             </div>
           </div>
-          <div style="width: 250px; border: 1px solid #eef1f7; border-radius: 14px; padding: 16px; display: flex; gap: 14px; align-items: center; background: #fff;">
-            <img src="assets/img/parceiro-anup.jpg" alt="ANUP — Associação de Natação Urso Polar" style="width: 54px; height: 54px; object-fit: contain; flex: 0 0 auto;">
+          <div style="width: 280px; border: 1px solid #e7edf8; border-radius: 16px; padding: 20px; display: flex; gap: 16px; align-items: center; background: #fff; box-shadow: 0 4px 14px rgba(6,33,94,0.05);">
+            <img src="assets/img/parceiro-anup.jpg" alt="ANUP — Associação de Natação Urso Polar" style="width: 60px; height: 60px; object-fit: contain; flex: 0 0 auto;">
             <div>
-              <div style="font-family: 'Sora', sans-serif; font-size: 14px; font-weight: 700; color: #0f1729;">ANUP</div>
+              <div style="font-family: 'Sora', sans-serif; font-size: 15px; font-weight: 700; color: #0f1729;">ANUP</div>
               <div style="font-size: 13px; color: #6a7488; line-height: 1.35;">Natação Urso Polar</div>
             </div>
           </div>
-          <div style="width: 250px; border: 1px solid #eef1f7; border-radius: 14px; padding: 16px; display: flex; gap: 14px; align-items: center; background: #fff;">
-            <span style="width: 54px; height: 54px; border-radius: 999px; background: #eaf1ff; color: #0b3fd4; font-family: 'Sora', sans-serif; font-weight: 800; font-size: 15px; display: flex; align-items: center; justify-content: center; flex: 0 0 auto;">AM</span>
+          <div style="width: 280px; border: 1px solid #e7edf8; border-radius: 16px; padding: 20px; display: flex; gap: 16px; align-items: center; background: #fff; box-shadow: 0 4px 14px rgba(6,33,94,0.05);">
+            <img src="assets/img/parceiro-viva.jpg" alt="Projeto Viva" style="width: 60px; height: 60px; object-fit: contain; flex: 0 0 auto;">
             <div>
-              <div style="font-family: 'Sora', sans-serif; font-size: 14px; font-weight: 700; color: #0f1729;">Aquamundo</div>
-              <div style="font-size: 13px; color: #6a7488; line-height: 1.35;">travessias e estágios</div>
-            </div>
-          </div>
-          <div style="width: 250px; border: 1px solid #eef1f7; border-radius: 14px; padding: 16px; display: flex; gap: 14px; align-items: center; background: #fff;">
-            <span style="width: 54px; height: 54px; border-radius: 999px; background: #e6f7fa; color: #0b3fd4; font-family: 'Sora', sans-serif; font-weight: 800; font-size: 15px; display: flex; align-items: center; justify-content: center; flex: 0 0 auto;">CN</span>
-            <div>
-              <div style="font-family: 'Sora', sans-serif; font-size: 14px; font-weight: 700; color: #0f1729;">Clube Náutico Vale</div>
-              <div style="font-size: 13px; color: #6a7488; line-height: 1.35;">exemplo fictício</div>
+              <div style="font-family: 'Sora', sans-serif; font-size: 15px; font-weight: 700; color: #0f1729;">Projeto Viva</div>
+              <div style="font-size: 13px; color: #6a7488; line-height: 1.35;">desenvolvimento esportivo</div>
             </div>
           </div>
         </div>
